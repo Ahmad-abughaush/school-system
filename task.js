@@ -1,5 +1,5 @@
 
-// // q5  
+q5
 // let array=[1,2,3,4,5]
 // let power=[]
 // for(let i=0;i<array.length;i++)
@@ -19,16 +19,14 @@
 // array.map((value)=>
 // {return( Math.pow(2,value))})
 // console.log(newarray)
-
-// // q5
-
+q5
 
 
 
 
 
-// // q6
 
+q6
 // let array=[0,1,2,"ahmad"]
 // let newarray=
 // array.map((value)=>
@@ -45,15 +43,13 @@
 // }
 // )
 // console.log (newarray)
-
-
-// // q6
+q6
 
 
 
 
 
-// // q7
+q7
 // let array=[3,5,15,11]
 // let newarray=
 // array.map((value)=>
@@ -70,8 +66,7 @@
 // }
 // )
 // console.log (newarray)
-
-// q7
+q7
 
 
 
