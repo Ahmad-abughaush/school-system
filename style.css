@@ -169,6 +169,7 @@
     padding: 10px;
     background-color: rgb(22, 83, 162);
     color: aliceblue;
+    border-radius: 10px;
 }
 
 #submit:hover {
