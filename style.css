@@ -22,8 +22,8 @@
 
 #logo {
     padding-top: 5px;
-    
-    }
+
+}
 
 #logo img {
     height: 60px;
@@ -156,12 +156,13 @@
     border-radius: 20px;
 
 }
+
 /* input */
 
 .label {
     color: rgb(22, 83, 162);
     text-align: center;
-    font-weight:500 ;
+    font-weight: 500;
 }
 
 #submit {
@@ -177,21 +178,48 @@
     color: rgb(22, 83, 162);
     transition: 2s;
 }
+
 /* input */
 
-#table{height: auto;
+#table {
+    height: auto;
     display: flex;
-justify-content: center;
-margin-top: 50px;}
-table{border-collapse: collapse;
-width: 50%;
-border: 2px solid white;
-border-radius: 10px;
-
+    justify-content: center;
+    margin-top: 50px;
 }
-.th{border: 1px solid white; text-align: center ;color:rgb(22, 83, 162)}
-td{border-right: 2px solid black; text-align: center; color: black }
-tr{border: 1px solid white; text-align: center; color: black}
-.th0{border: 1px solid white; text-align: center ;color: black;}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    opacity: .8;
+    border-radius: 5px;
+}
+
+.th {
+    border: 1px solid black;
+    text-align: center;
+    color: rgb(22, 83, 162)
+}
+
+td {
+    border-right: 2px solid black;
+    text-align: center;
+    color: black
+}
+
+tr {
+    border: 1px solid black;
+    text-align: center;
+    color: black
+}
+
+.th0 {
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+}
 
 /* home */
