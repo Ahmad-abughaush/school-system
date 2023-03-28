@@ -16,9 +16,8 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- links -->
 </head>
-
 <body>
-
+<br>
     <header>
         <!-- nav bar -->
         <div id="nav" class="fixed-top">
@@ -50,35 +49,39 @@
                     <input type="text" name="phonenumber" id="phonenumber" placeholder="0799634896"
                         style="text-align: center;">
                     <br>
-                    <label for="grade" class="label">grade</label>
-                    <input type="text" name="grade" id="grade" placeholder="80%" style="text-align: center;">
-                    <br>
                     <label for="date" class="label">date</label>
                     <input type="date" name="date" id="date" style="text-align: center;">
                     <br>
                     <label for="gender" class="label">gender</label>
-                    <select name="gender" id="gender" name="gender">
+                    <select name="gender" id="gender">
                         <option value="male">male</option>
                         <option value="female">female</option>
                     </select>
                     <br>
+                    <label for="major" class="label">major</label>
+                    <select id="major" name="major">
+                        <option value="Administration">Administration</option>
+                        <option value="IT">IT</option>
+                        <option value="art">art</option>
+                        <option value="Science">Science</option>
+                    </select>
+                    <br>
+                    <label class="label" for="userimg">user img</label>
+                    <input name="userimg" type="text" id="userimg"
+                        value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSt1wPR6BK9QzJkQ2hwx3Y4UEUQlxHi9cXtZIKGKIc1w&s"
+                        placeholder="user img" required>
+
                     <label for="submit" class="submit"></label>
+                    <br>
                     <input type="submit" name="submit" id="submit">
+
                 </form>
             </div>
-            <div id="table">
-                <table id="tab">
-                    <tr>
-                        <th class="th">full name</th>
-                        <th class="th">phone number</th>
-                        <th class="th">grade</th>
-                        <th class="th">date</th>
-                        <th class="th">gender</th>
-                    </tr>
-                    <tbody id="tab0">
 
-                    </tbody>
-                </table>
+            <h3 class="h3" id="h3">students information</h3>
+
+            <div id="studentcards">
+            
             </div>
 
         </section>
